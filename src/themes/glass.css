@@ -1,0 +1,33 @@
+.theme-glass {
+  --card-bg: #24264e;
+  --card-text: #fff;
+  --card-secondary: #eef0ff;
+  --card-muted: #d4d7f2;
+  --card-faint: #b3b9da;
+  --card-accent: #d3e9ff;
+  --card-line: rgba(255,255,255,.28);
+  --card-chip-bg: rgba(255,255,255,.13);
+  --card-chip-line: rgba(255,255,255,.27);
+  --card-chip-text: #fff;
+  --card-avatar-line: rgba(255,255,255,.73);
+  --card-avatar-bg: rgba(255,255,255,.2);
+  --card-avatar-shadow: 0 15px 32px rgba(17,16,84,.38), inset 0 1px 1px rgba(255,255,255,.7);
+  --card-avatar-fallback: linear-gradient(145deg, #e6c2f2, #6a72c9);
+  background: radial-gradient(circle at 5% 8%, rgba(224,194,255,.95), transparent 34%), radial-gradient(circle at 92% 29%, rgba(105,236,238,.9), transparent 42%), radial-gradient(circle at 30% 98%, rgba(164,128,255,.95), transparent 52%), linear-gradient(155deg, #6674c8, #474c9e 55%, #7c69bc);
+}
+.theme-glass .card-ambient { display: block; border-radius: 50%; }
+.theme-glass .ambient-one { width: 400px; height: 400px; top: -162px; left: -162px; background: radial-gradient(circle, rgba(253,217,255,.72) 0, rgba(247,203,255,.38) 48%, transparent 72%); }
+.theme-glass .ambient-two { width: 410px; height: 410px; top: 134px; right: -250px; background: radial-gradient(circle, rgba(153,255,251,.7) 0, rgba(107,219,232,.35) 50%, transparent 72%); }
+.theme-glass .ambient-three { width: 460px; height: 460px; bottom: -270px; left: -180px; background: radial-gradient(circle, rgba(226,195,255,.73) 0, rgba(177,129,245,.36) 52%, transparent 73%); }
+.theme-glass .card-grain { display: block; inset: 0; opacity: .2; background: repeating-linear-gradient(113deg, transparent 0 5px, rgba(255,255,255,.09) 5px 6px); }
+.theme-glass .card-content { width: calc(100% - 24px); height: calc(100% - 24px); margin: 12px; padding: 27px 30px 22px; border: 1px solid rgba(255,255,255,.46); border-radius: 24px; background: linear-gradient(141deg, rgba(255,255,255,.28), rgba(255,255,255,.09) 38%, rgba(41,45,115,.13) 67%, rgba(255,255,255,.19)); box-shadow: inset 0 1px 0 rgba(255,255,255,.65), inset 0 -1px 0 rgba(255,255,255,.25), 0 14px 52px rgba(25,24,76,.2); backdrop-filter: blur(20px); }
+.theme-glass .card-header { padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,.19); height: 38px; }
+.theme-glass .brand-mark { background: rgba(255,255,255,.15); }
+.theme-glass .card-identity { margin-top: 44px; }
+.theme-glass .identity-copy h2 { text-shadow: 0 3px 18px rgba(23,28,75,.15); }
+.theme-glass .identity-details { margin-top: 23px; }
+.theme-glass .projects-section { margin-top: 35px; }
+.theme-glass .project-row { padding-inline: 10px; margin-inline: -10px; border-radius: 11px; }
+.theme-glass .project-row:hover { background: rgba(255,255,255,.12); }
+.theme-glass .card-stats { padding-block: 21px 20px; }
+.theme-glass .card-bottom { padding-top: 17px; }

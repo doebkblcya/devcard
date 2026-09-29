@@ -1,0 +1,18 @@
+.theme-black {
+  --card-bg: #0c0d10;
+  --card-text: #f5f5f6;
+  --card-secondary: #b5b6ba;
+  --card-muted: #929398;
+  --card-faint: #5d5e66;
+  --card-accent: #d4d4d8;
+  --card-line: #303137;
+  --card-chip-bg: #202126;
+  --card-chip-line: #34353b;
+  --card-chip-text: #d6d6d9;
+  --card-avatar-line: #55565e;
+  --card-avatar-bg: #1b1c20;
+  --card-avatar-shadow: 0 18px 38px rgba(0,0,0,.3);
+  --card-avatar-fallback: linear-gradient(145deg, #4a4b56, #16171b);
+}
+.theme-black .card-header { border-bottom: 1px solid #2b2c32; padding-bottom: 17px; height: 40px; }
+.theme-black .project-row { border-color: #303137; }

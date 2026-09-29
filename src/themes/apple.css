@@ -1,0 +1,26 @@
+.theme-apple {
+  --card-bg: #f6f6f4;
+  --card-text: #18191b;
+  --card-secondary: #383a3e;
+  --card-muted: #898b90;
+  --card-faint: #aeb0b5;
+  --card-accent: #7a7c83;
+  --card-line: #dadbdc;
+  --card-chip-bg: transparent;
+  --card-chip-line: #dcdddf;
+  --card-chip-text: #5f6267;
+  --card-avatar-line: transparent;
+  --card-avatar-bg: transparent;
+  --card-avatar-shadow: none;
+  --card-avatar-fallback: linear-gradient(145deg, #babcc1, #878a92);
+}
+.theme-apple .card-content { padding-inline: 47px; }
+.theme-apple .brand-mark { border-color: #c6c8ca; }
+.theme-apple .card-identity { margin-top: 65px; }
+.theme-apple .avatar-frame { padding: 0; border-radius: 50%; }
+.theme-apple .avatar-frame img, .theme-apple .avatar-initials { border-radius: 50%; }
+.theme-apple .identity-copy h2 { font-weight: 610; }
+.theme-apple .section-heading h3 { font-weight: 570; }
+.theme-apple .language-list span { border-radius: 100px; }
+.theme-apple .project-number, .theme-apple .project-arrow { display: none; }
+.theme-apple .project-row { gap: 0; }

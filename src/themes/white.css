@@ -1,0 +1,17 @@
+.theme-white {
+  --card-bg: #fff;
+  --card-text: #1a1b21;
+  --card-secondary: #43454d;
+  --card-muted: #777a84;
+  --card-faint: #adb0b8;
+  --card-accent: #5c57ca;
+  --card-line: #e7e8ed;
+  --card-chip-bg: #f7f7fb;
+  --card-chip-line: #e8e8ef;
+  --card-chip-text: #626573;
+  --card-avatar-line: #e5e5ec;
+  --card-avatar-bg: #fff;
+  --card-avatar-shadow: 0 13px 26px rgba(30,32,58,.08);
+  --card-avatar-fallback: linear-gradient(145deg, #9698ca, #4b5483);
+}
+.theme-white .project-row:hover { background: #fafafe; }
